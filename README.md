@@ -58,6 +58,8 @@ To address this security event, the network security team implemented:
 As a cybersecurity analyst, the task is using this security event to create a plan to improve your company’s network security, following the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF). You will use the CSF to help you navigate through the different steps of analyzing this cybersecurity event and integrate your analysis into a general security strategy. 
 
 
+## Incident report
+
 | Title       | Information |
 |-------------|-------------|
 | Summary     | The organization experienced a Distributed Denial of Service (DDoS) attack that disrupted internal network services for two hours. The attack exploited an unconfigured firewall, flooding the network with ICMP packets. Critical services were restored by blocking incoming ICMP traffic, shutting down non-critical services, and implementing new security measures. |
@@ -67,10 +69,21 @@ As a cybersecurity analyst, the task is using this security event to create a pl
 | Respond     | **Response Planning:** Blocked incoming ICMP packets and shut down non-critical network services to mitigate the impact. <br> **Communication:** Informed the cybersecurity team and upper management about the incident; prepared notifications for stakeholders if needed. <br> **Mitigation:** Neutralized the attack by adjusting firewall rules and restoring critical services. <br> **Improvements:** Documented the incident to refine future response protocols and improve network defenses. |
 | Recover     | **Recovery Planning:** Restored affected network services and ensured critical systems were fully operational. <br> **Improvements:** Regular audits and updates to firewall configurations to prevent future DDoS attacks. <br> **Communication:** Updated management and relevant teams on the recovery status and ongoing improvements. |
 
-### Scope: 
 
-### Goals: 
+## General Comments & Recommendations
 
-### Additional comments
+- Root Cause Analysis: While the report identifies the unconfigured firewall as a vulnerability, further investigation is crucial.
+- Vulnerability Scanning: Conduct regular vulnerability scans to identify and address potential weaknesses in the network infrastructure.
+- Threat Intelligence: Utilize threat intelligence feeds to stay informed about emerging threats and vulnerabilities.
+- Incident Response Testing: Tabletop Exercises: Regularly conduct tabletop exercises to test and refine incident response plans. Simulate DDoS attacks to evaluate the effectiveness of current procedures and identify areas for improvement.
+- Penetration Testing: Engage a qualified security firm to conduct penetration testing to identify and exploit vulnerabilities in the network.
+- Network Segmentation: Implement network segmentation to isolate critical systems and limit the impact of future attacks.
+- DDoS Mitigation Services: Consider subscribing to a DDoS mitigation service to provide an additional layer of protection against future attacks. These services can help absorb and deflect malicious traffic before it reaches the organization's network.
+- Employee Training: Phishing Simulations: Conduct regular phishing simulations to educate employees about social engineering tactics and the importance of cybersecurity best practices.
+- Security Awareness: Emphasize the importance of strong passwords, avoiding suspicious links, and reporting any suspicious activity.
+- Documentation: Document and analyze lessons learned from this incident to inform future security decisions and improve overall security posture.
 
-## Recommendations
+### Key Takeaways:
+
+This incident highlights the importance of proactive security measures, including regular vulnerability assessments, robust security controls, and ongoing employee training.
+By implementing the recommendations above, the organization can significantly enhance its ability to prevent, detect, and respond to future cyber threats.
