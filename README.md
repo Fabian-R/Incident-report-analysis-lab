@@ -57,15 +57,15 @@ To address this security event, the network security team implemented:
 
 As a cybersecurity analyst, the task is using this security event to create a plan to improve your company’s network security, following the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF). You will use the CSF to help you navigate through the different steps of analyzing this cybersecurity event and integrate your analysis into a general security strategy. 
 
-We have broken the analysis into different parts in the template below. You can explore them here:
 
-- Identify security risks through regular audits of internal networks, systems, devices, and access privileges to identify potential gaps in security.
-- Protect internal assets through the implementation of policies, procedures, training and tools that help mitigate cybersecurity threats.
-- Detect potential security incidents and improve monitoring capabilities to increase the speed and efficiency of detections.
-- Respond to contain, neutralize, and analyze security incidents; implement improvements to the security process.
-- Recover affected systems to normal operation and restore systems data and/or assets that have been affected by an incident.
-
-
+| Title       | Information |
+|-------------|-------------|
+| Summary     | The organization experienced a Distributed Denial of Service (DDoS) attack that disrupted internal network services for two hours. The attack exploited an unconfigured firewall, flooding the network with ICMP packets. Critical services were restored by blocking incoming ICMP traffic, shutting down non-critical services, and implementing new security measures. |
+| Identify    | **Technology/Asset Management:** The attack targeted the company’s firewall and overwhelmed network resources with ICMP packets. The internal network was inaccessible, and critical services were disrupted. <br> **Process/Business Environment:** The attack impacted business processes reliant on network connectivity, such as web design and social media marketing services. <br> **People:** IT administrators, network security staff, and potentially affected employees required access to the compromised systems. |
+| Protect     | **Access Control:** Implemented a new firewall rule to limit the rate of incoming ICMP packets. <br> **Awareness Training:** Employees were trained on identifying unusual activity and potential vulnerabilities. <br> **Protective Technology:** Deployed source IP address verification on the firewall and updated firewall configurations to prevent similar attacks. |
+| Detect      | **Anomalies and Events:** Monitored incoming ICMP traffic for unusual patterns or high-volume requests. <br> **Continuous Monitoring:** Implemented network monitoring software to identify and flag abnormal traffic. <br> **Detection Processes:** Established protocols for monitoring and responding to ICMP-based threats. |
+| Respond     | **Response Planning:** Blocked incoming ICMP packets and shut down non-critical network services to mitigate the impact. <br> **Communication:** Informed the cybersecurity team and upper management about the incident; prepared notifications for stakeholders if needed. <br> **Mitigation:** Neutralized the attack by adjusting firewall rules and restoring critical services. <br> **Improvements:** Documented the incident to refine future response protocols and improve network defenses. |
+| Recover     | **Recovery Planning:** Restored affected network services and ensured critical systems were fully operational. <br> **Improvements:** Regular audits and updates to firewall configurations to prevent future DDoS attacks. <br> **Communication:** Updated management and relevant teams on the recovery status and ongoing improvements. |
 
 ### Scope: 
 
